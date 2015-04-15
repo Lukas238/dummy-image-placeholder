@@ -26,7 +26,7 @@ You also can use it directly in your code:
 
 You can pass a background color and a text color as hexadecimal values.
 
-	http://localhost/dummy-image-placeholder/example/350x150/7E6979/EFCFAB
+	http://dummy-image-placeholder.c238.com.ar/350x150/7E6979/EFCFAB
 
 ![alt text](http://dummy-image-placeholder.c238.com.ar/350x150/7E6979/EFCFAB)
 	
@@ -34,7 +34,7 @@ You can pass a background color and a text color as hexadecimal values.
 ###Add custom text
 You can define a custom text, insted of the image dimension.
 
-	http://localhost/dummy-image-placeholder/example/350x150&t=Hello word!
+	hhttp://dummy-image-placeholder.c238.com.ar/350x150&t=Hello word!
 	
 ![alt text](http://dummy-image-placeholder.c238.com.ar/350x150&t=Hello word!)
 
