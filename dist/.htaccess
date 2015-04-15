@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^$ index.php
+RewriteRule ^(?:([0-9x//]*)|(([0-9x//]*)(&t=.*)))$ index.php?data=$1$2 [NC,L,B,QSA,NE]
