@@ -41,7 +41,7 @@ You can define a custom text, insted of the image dimension.
 ###Add multiple lines of text
 You can add a break line adding two consecutive lower dash characters.
 
-	http://localhost/dummy-image-placeholder/example/350x150&t=Hello__World!
+	http://dummy-image-placeholder.c238.com.ar/350x150&t=Hello__World!
 
 ![alt text](http://dummy-image-placeholder.c238.com.ar/350x150&t=Hello__World!)
 	
