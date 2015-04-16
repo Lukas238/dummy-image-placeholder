@@ -49,9 +49,18 @@ You can add a break line adding two consecutive lower dash characters.
 
 ![alt text](http://dummy-image-placeholder.c238.com.ar/350x150&t=Hello__World!)
 	
+
 	
 ##Technical
 - Background color: #cccccc;
 - Text color: #888888;
 - Font family: BebasNeue Regular - TTF
 - Image format: PNG;
+
+
+##Rrequirements
+- PHP5
+
+
+##To-Do
+- Improve .htaccess configuration so redirect to index.php on missing parameters or any error.
