@@ -9,19 +9,19 @@
 ##How to
 You just need to put the image size after our URL to get a dummy image.
 
-	http://dummy-image-placeholder.c238.com.ar/100x150
+	http://myserver.com/100x150
 
 You also can use it directly in your code:
 
 ####HTML
 ```html
-<img src="http://dummy-image-placeholder.c238.com.ar/100x150" alt="" >
+<img src="http://myserver.com/100x150" alt="" >
 ```
 
 ####CSS
 ```css
 .div{
-	background: url(http://dummy-image-placeholder.c238.com.ar/100x150) no-repeat center center;
+	background: url(http://myserver.com/100x150) no-repeat center center;
 }
 ```
 
@@ -30,7 +30,7 @@ You also can use it directly in your code:
 
 You can pass a background color and a text color as hexadecimal values.
 
-	http://dummy-image-placeholder.c238.com.ar/350x150/7E6979/EFCFAB
+	http://myserver.com/350x150/7E6979/EFCFAB
 
 ![alt text](http://dummy-image-placeholder.c238.com.ar/350x150/7E6979/EFCFAB)
 	
@@ -38,14 +38,14 @@ You can pass a background color and a text color as hexadecimal values.
 ###Add custom text
 You can define a custom text, insted of the image dimension.
 
-	hhttp://dummy-image-placeholder.c238.com.ar/350x150&t=Hello word!
+	http://myserver.com/350x150&t=Hello word!
 	
 ![alt text](http://dummy-image-placeholder.c238.com.ar/350x150&t=Hello word!)
 
 ###Add multiple lines of text
 You can add a break line adding two consecutive lower dash characters.
 
-	http://dummy-image-placeholder.c238.com.ar/350x150&t=Hello__World!
+	http://myserver.com/350x150&t=Hello__World!
 
 ![alt text](http://dummy-image-placeholder.c238.com.ar/350x150&t=Hello__World!)
 	
@@ -58,7 +58,7 @@ You can add a break line adding two consecutive lower dash characters.
 - Image format: PNG;
 
 
-##Rrequirements
+##Requirements
 - PHP5
 
 
