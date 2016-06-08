@@ -1,126 +1,138 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Dummy-image-placeholder by Lukas238</title>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dummy Image Placeholder | C238</title>
+	
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Dummy-image-placeholder</h1>
-        <p>A php placeholder image service.</p>
-
-        <p class="view"><a href="https://github.com/Lukas238/dummy-image-placeholder">View the Project on GitHub <small>Lukas238/dummy-image-placeholder</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/Lukas238/dummy-image-placeholder/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/Lukas238/dummy-image-placeholder/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/Lukas238/dummy-image-placeholder">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>
-<a id="dummy-image-placeholder" class="anchor" href="#dummy-image-placeholder" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dummy Image Placeholder</h1>
-
-<h4>
-<a id="yet-another-simple-image-placeholder-service" class="anchor" href="#yet-another-simple-image-placeholder-service" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Yet another simple image placeholder service.</h4>
-
-<p><a href="http://dummy-image-placeholder.c238.com.ar/">Live site</a></p>
-
-<h2>
-<a id="how-to" class="anchor" href="#how-to" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to</h2>
-
-<p>You just need to put the image size after our URL to get a dummy image.</p>
-
-<pre><code>http://myserver.com/100x150
-</code></pre>
-
-<p>You also can use it directly in your code:</p>
-
-<h4>
-<a id="html" class="anchor" href="#html" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HTML</h4>
-
-<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">img</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>http://myserver.com/100x150<span class="pl-pds">"</span></span> <span class="pl-e">alt</span>=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span> &gt;</pre></div>
-
-<h4>
-<a id="css" class="anchor" href="#css" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CSS</h4>
-
-<div class="highlight highlight-source-css"><pre><span class="pl-e">.div</span>{
-    <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-c1">url</span>(<span class="pl-v">http://myserver.com/100x150</span>) <span class="pl-c1">no-repeat</span> <span class="pl-c1">center</span> <span class="pl-c1">center</span>;
-}</pre></div>
-
-<h2>
-<a id="examples" class="anchor" href="#examples" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Examples</h2>
-
-<h3>
-<a id="add-custom-colors" class="anchor" href="#add-custom-colors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Add custom colors</h3>
-
-<p>You can pass a background color and a text color as hexadecimal values.</p>
-
-<pre><code>http://myserver.com/350x150/7E6979/EFCFAB
-</code></pre>
-
-<p><img src="http://dummy-image-placeholder.c238.com.ar/350x150/7E6979/EFCFAB" alt="alt text"></p>
-
-<h3>
-<a id="add-custom-text" class="anchor" href="#add-custom-text" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Add custom text</h3>
-
-<p>You can define a custom text, insted of the image dimension.</p>
-
-<pre><code>http://myserver.com/350x150&amp;t=Hello word!
-</code></pre>
-
-<p><img src="http://dummy-image-placeholder.c238.com.ar/350x150&amp;t=Hello%20word!" alt="alt text"></p>
-
-<h3>
-<a id="add-multiple-lines-of-text" class="anchor" href="#add-multiple-lines-of-text" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Add multiple lines of text</h3>
-
-<p>You can add a break line adding two consecutive lower dash characters.</p>
-
-<pre><code>http://myserver.com/350x150&amp;t=Hello__World!
-</code></pre>
-
-<p><img src="http://dummy-image-placeholder.c238.com.ar/350x150&amp;t=Hello__World!" alt="alt text"></p>
-
-<h2>
-<a id="technical" class="anchor" href="#technical" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Technical</h2>
-
-<ul>
-<li>Background color: #cccccc;</li>
-<li>Text color: #888888;</li>
-<li>Font family: BebasNeue Regular - TTF</li>
-<li>Image format: PNG;</li>
-</ul>
-
-<h2>
-<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h2>
-
-<ul>
-<li>PHP5</li>
-</ul>
-
-<h2>
-<a id="to-do" class="anchor" href="#to-do" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To-Do</h2>
-
-<ul>
-<li>Improve .htaccess configuration so redirect to index.php on missing parameters or any error.</li>
-</ul>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/Lukas238">Lukas238</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+</head>
+<body>
+	
+	
+		
+	<a href="https://github.com/Lukas238/dummy-image-placeholder.git"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/121cd7cbdc3e4855075ea8b558508b91ac463ac2/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png"></a>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<header id="header">
+					<h1>Dummy Image Placeholder</h1>
+					<h2>Yet another simple image placeholder service.</h2>
+				</header>
+			</div>
+		</div>
+	</div>
+	
+	<main id="main">
+		<div id="content">
+			
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-4 col-sm-offset-2">
+						<h1 class="page-title">How to:</h1>
+						<p>You just need to put the image size after our URL to get a dummy image.</p>
+						
+						<pre>http://lukas238.github.io/dummy-image-placeholder/100x150</pre>
+						
+						<p>You also can use it directly in your code:</p>
+						
+						<h5>HTML</h5>
+						<pre>&lt;img src=&quot;http://lukas238.github.io/dummy-image-placeholder/100x150&quot; alt=&quot;&quot; &gt;</pre>
+						
+						<h5>CSS</h5>
+						<pre>.div{
+	background: url(http://lukas238.github.io/dummy-image-placeholder/100x150) no-repeat center center;
+}</pre>
+												
+						
+					</div>
+					<div class="col-sm-4">
+					
+						<div id="previews">
+							<img src="http://lukas238.github.io/dummy-image-placeholder/350x150" alt="" class="img-responsive">
+							<img src="http://lukas238.github.io/dummy-image-placeholder/130x100" alt="" class="img-responsive inline">
+							<img src="http://lukas238.github.io/dummy-image-placeholder/200x100" alt="" class="img-responsive inline mar-l-8">
+							<img src="http://lukas238.github.io/dummy-image-placeholder/350x65" alt="" class="img-responsive">
+						</div>
+						
+						
+					</div>
+					<div class="col-sm-8 col-sm-offset-2">
+						
+						<h2>Examples</h2>
+						
+						
+						<h3>Add custom colors</h3>
+						<div class="row">
+							<div class="col-sm-6">
+								<p>You can pass a background color and a text color as hexadecimal values.
+								<pre>http://lukas238.github.io/dummy-image-placeholder/350x150/7E6979/EFCFAB</pre>
+							</div>
+							<div class="col-sm-6">
+								<img src="http://lukas238.github.io/dummy-image-placeholder/350x150/7E6979/EFCFAB" alt="">	
+							</div>
+						</div>
+						
+						<h3>Add custom text</h3>
+						<div class="row">
+							<div class="col-sm-6">
+								<p>You can define a custom text, insted of the image dimension.</p>
+								<pre>http://lukas238.github.io/dummy-image-placeholder/350x150&t=Hello word!</pre>
+							</div>
+							<div class="col-sm-6">
+								<img src="http://lukas238.github.io/dummy-image-placeholder/350x150&t=Hello world!" alt="">
+							</div>
+						</div>
+						
+						<h3>Add multiple lines of text</h3>
+						<div class="row">
+							<div class="col-sm-6">
+								<p>You can add a break line adding two consecutive lower dash characters.
+								<pre>http://lukas238.github.io/dummy-image-placeholder/350x150&t=Hello__World!</pre>
+							</div>
+							<div class="col-sm-6">
+								<img src="http://lukas238.github.io/dummy-image-placeholder/350x150&t=Hello__World!" alt="">	
+							</div>
+						</div>
+						
+						
+						<hr/>
+						
+						<h2>Technical</h2>
+						
+						<ul>
+							<li>Background color: #cccccc;</li>
+							<li>Text color: #888888;</li>
+							<li>Font family: BebasNeue Regular - TTF</li>
+							<li>Image format: PNG;</li>
+						</ul>
+						
+						
+						
+						
+					</div>
+				</div>
+			</div>
+			
+		</div><!-- #content -->
+	</main>
+			
+			
+				
+				
+				
+	<footer id="footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2">
+					<a href="http://www.c238.com.ar/">By C238</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	
+</body>
 </html>

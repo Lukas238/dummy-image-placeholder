@@ -1,0 +1,43 @@
+#header{
+	background: #7E6979;
+	color: #EFCFAB;
+	margin-bottom: 40px;
+	text-align: center;
+	padding: 20px;
+}
+#header h1{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+#previews img{
+	margin-bottom: 12px;
+}
+
+#previews .inline{
+	display: inline !important;
+}
+
+.mar-l-8{
+  margin-left: 8px;
+}
+
+h3{
+	border-bottom: 1px solid #eee;
+}
+
+#footer{
+  background: #f8f8f8;
+  padding: 20px 0;
+  border-top: 1px solid #d8d8d8;
+  margin-top: 40px;
+  text-align: center;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited{
+	color: #7E6979;
+}
